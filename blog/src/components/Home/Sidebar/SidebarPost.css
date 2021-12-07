@@ -1,0 +1,21 @@
+.sidebar-post {
+  margin-top: 10px;
+}
+.sidebar-posts-ul {
+  margin-top: 8px;
+}
+
+.sidebar-posts-li {
+  display: flex;
+  margin-left: -30px;
+  margin-top: 8px;
+}
+.sidebar-posts-li-img {
+  width: 36%;
+}
+.sidebar-posts-title {
+  margin-left: 15px;
+  width: 104%;
+  height: 90px;
+  font-weight: bold;
+}

@@ -1,0 +1,85 @@
+.post-body {
+  display: flex;
+}
+
+.post-content-wrapper {
+  margin-top: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.post-sidebar {
+  width: 40%;
+  position: sticky;
+  top: 0px;
+  margin-top: 15px;
+}
+
+.post-content-blog-title {
+  font-size: 30px;
+  padding-top: 38px;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.post-content-date {
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-top: 10px;
+  color: blue;
+  margin-bottom: 10px;
+  margin-right: 20px;
+}
+
+.post-content-desc {
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 20px;
+}
+
+.post-content-comment {
+  display: flex;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 15px;
+  justify-content: space-between;
+}
+.post-content-input {
+  width: 350%;
+  height: 130%;
+  padding-top: 5px;
+  padding-left: 10px;
+  border-radius: 15px;
+}
+
+.post-content-input-button {
+  padding-top: 15px;
+}
+
+.post-content-input-image {
+  width: 70px;
+  cursor: pointer;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.post-comment-list {
+  margin-top: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.post-comment-ul {
+  list-style: none;
+  margin-left: -30px;
+}
+
+.post-comment-li {
+  background-color: burlywood;
+  border-radius: 15px;
+  padding-left: 10px;
+}

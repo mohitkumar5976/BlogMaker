@@ -1,0 +1,102 @@
+.newpost-body {
+  width: 70%;
+  background-image: url("");
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
+.newpost-header {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+.newpost-title-label {
+  margin-bottom: 10px;
+}
+.newpost-input {
+  width: 90%;
+}
+.newpost-title {
+  margin-left: 15px;
+  margin-top: 30px;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.newpost-picture {
+  display: flex;
+  margin-top: 10px;
+}
+.newpost-picture-title {
+  padding-top: 5px;
+}
+.newpost-picture-input {
+  margin-left: 130px;
+}
+
+.newpost-leftside {
+  margin-top: 26px;
+  padding-right: 20px;
+
+  width: 20%;
+}
+.newpost-publish-button {
+  margin-bottom: 15px;
+  margin-right: 9px;
+}
+.newpost-submit-button {
+  width: 118%;
+}
+
+.newpost-category {
+  width: 114%;
+  height: 38px;
+  border-radius: 10px;
+  margin-right: 9px;
+}
+
+.newpost-leftside {
+  margin-right: 15px;
+}
+
+.newpost-description {
+  margin: 20px 15px 0 15px;
+  padding-bottom: 15px;
+}
+
+.newpost-picture-title {
+  margin-right: -110px;
+  font-weight: bold;
+}
+.newpost-description-title {
+  margin-bottom: 10px;
+  font-size: 22px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 768px) {
+  .newpost-header {
+    display: block;
+    padding-top: 2px;
+  }
+
+  .newpost-input {
+    width: 95%;
+  }
+
+  .newpost-leftside {
+    display: flex;
+    position: relative;
+  }
+  .newpost-submit-button {
+    width: 120px;
+    position: absolute;
+    left: 150px;
+  }
+  .newpost-category {
+    width: 120px;
+    margin-left: 15px;
+  }
+}

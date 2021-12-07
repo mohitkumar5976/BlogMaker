@@ -1,0 +1,33 @@
+.footer-feedback-title {
+  background-color: brown;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+.footer-feedbackForm-title {
+  background-color: red;
+  color: white;
+  width: 50%;
+  font-weight: bold;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 15px;
+  border-radius: 15px;
+  margin: 0 auto;
+}
+.feedback-form-button {
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+.footer-textarea {
+  width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  .footer-feedback-form {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 13rem;
+  }
+}

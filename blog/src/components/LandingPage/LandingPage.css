@@ -1,0 +1,64 @@
+.LandingPage-body {
+  background-image: url("LandingPage.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  justify-content: center;
+  position: relative;
+}
+
+.LandingPage-wrapper {
+  position: absolute;
+  top: 20%;
+  left: 9%;
+  width: 80%;
+}
+.LandingPage-title {
+  text-align: center;
+  font-size: 4.5rem;
+
+  background: #00ff00;
+  background: -webkit-linear-gradient(to left, #00ff00 0%, #00ffff 100%);
+  background: -moz-linear-gradient(to left, #00ff00 0%, #00ffff 100%);
+  background: linear-gradient(to left, #00ff00 0%, #00ffff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-bottom: 20px;
+}
+.LandingPage-Subtitle {
+  text-align: center;
+  font-size: 1.5rem;
+  color: white;
+}
+.LandingPage-Buttons {
+  display: flex;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  height: 65px;
+  justify-content: center;
+}
+.LandingPage-Login-button {
+  padding-top: 10px;
+  width: 30%;
+  margin-right: 12px;
+}
+.LandingPage-SignUp-button {
+  padding-top: 10px;
+  width: 30%;
+  margin-right: 12px;
+}
+
+.landing-button-links1 {
+  text-decoration: none;
+  color: white;
+}
+.landing-button-links1:hover {
+  color: bisque;
+}
+.landing-button-links2 {
+  text-decoration: none;
+  color: white;
+}
+.landing-button-links2:hover {
+  color: blue;
+}

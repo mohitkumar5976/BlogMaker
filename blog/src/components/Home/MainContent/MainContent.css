@@ -1,0 +1,241 @@
+.dataLink {
+  text-decoration: none;
+}
+
+.main-post-body-title {
+  margin-bottom: 20px;
+  background-color: brown;
+  border-radius: 15px;
+  margin-top: 20px;
+}
+.main-content-title {
+  background-color: red;
+  margin: 0 auto;
+  color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 15px;
+  width: 35%;
+}
+
+.main-content-row1 {
+  margin-top: -15px;
+  margin-bottom: 10px;
+}
+.main-content-recentpost-block-1 {
+  display: flex;
+  position: relative;
+
+  margin-top: 20px;
+  margin-left: -10px;
+  padding-right: 32px;
+  padding-bottom: 10px;
+}
+.main-content-recentpost-block-1-img {
+  width: 300px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.main-content-recentpost-block-1-title {
+  margin-left: 2px;
+
+  font-weight: bold;
+}
+.main-post-content {
+  margin-top: -5px;
+  font-size: 16px;
+}
+.latestpost-content {
+  width: 60%;
+}
+
+.main-content-recentpost-block-2 {
+  display: flex;
+
+  margin-left: -10px;
+  padding-right: 32px;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.main-content-recentpost-block-3 {
+  display: flex;
+
+  padding-right: 32px;
+  margin-left: -10px;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+/* row2*/
+.main-content-row2 {
+  display: flex;
+}
+.main-content-row2-block {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.main-content-row2-img {
+  width: 228px;
+  height: 150px;
+}
+.main-content-row2-title {
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+/*main-content-ads1*/
+.main-content-ads1 {
+  height: 90px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  margin-top: 30px;
+}
+
+/*main-content-row3*/
+
+.main-content-row3 {
+  display: flex;
+  margin-top: 15px;
+  padding-left: 10px;
+}
+.main-content-row3-block1 {
+  position: relative;
+  margin-top: -20px;
+}
+.main-content-row3-block2 {
+  position: relative;
+  margin-top: -20px;
+  margin-left: 20px;
+}
+.main-content-row3-tag {
+  position: absolute;
+  top: 18px;
+  left: 5px;
+  background-color: red;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: bold;
+  border-radius: 15px;
+}
+.main-content-row3-title {
+  position: absolute;
+  top: 9.2rem;
+  left: 8px;
+  background-color: red;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: bold;
+  border-radius: 15px;
+}
+
+.main-content-row3-img1 {
+  width: 350px;
+  height: 200px;
+}
+.main-content-row3-img2 {
+  width: 350px;
+  height: 200px;
+}
+
+.main-content-row3-li {
+  display: flex;
+  margin-top: 10px;
+  margin-left: -32px;
+}
+
+.main-content-row3-li-img {
+  width: 35%;
+}
+
+.main-content-row3-ul {
+  margin-top: 10px;
+}
+.main-content-row3-li-title {
+  margin-left: 10px;
+  width: 65%;
+  font-weight: 500;
+}
+
+/*main-content-row4*/
+
+.main-content-row4-block1 {
+  width: 95%;
+  margin: 0 auto;
+}
+.main-content-row4-block2 {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: -25px;
+}
+.main-content-row4-ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.main-content-row4-li {
+  margin: 0 auto;
+  margin-left: -13px;
+}
+.main-content-row4-li-img {
+  width: 92%;
+  height: 160px;
+}
+.main-content-row4-block2-title {
+  width: 92%;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 768px) {
+  .main-content-recentpost-block-1-img {
+    width: 40%;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .main-post-content {
+    display: none;
+  }
+  .main-content-row2 {
+    display: block;
+  }
+  .main-content-row2-title {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  .main-content-row3 {
+    display: block;
+  }
+  .main-content-row3-title {
+    position: absolute;
+    top: 15rem;
+    left: 5px;
+    background-color: red;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+    border-radius: 15px;
+  }
+  .main-content-row4-ul {
+    display: block;
+    list-style-type: none;
+  }
+  .main-content-row4-li-img {
+    width: 70%;
+    height: 180px;
+  }
+  .main-content-row4-block2-title {
+    width: 95%;
+    margin-top: 10px;
+
+    font-weight: 500;
+  }
+}

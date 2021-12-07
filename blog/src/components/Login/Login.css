@@ -1,0 +1,63 @@
+.Login-body {
+  background-image: url("Login.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  justify-content: center;
+  position: relative;
+}
+.Login-wrapper {
+  background-color: white;
+  position: absolute;
+  width: 30%;
+  top: 18%;
+  left: 63%;
+  padding-bottom: 25px;
+}
+.Login-blogname {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 30px;
+}
+
+.Login-title {
+  color: white;
+  width: 45%;
+  margin: 0 auto;
+  border-radius: 15px;
+  background-color: brown;
+}
+
+.login-form {
+  margin: 0 auto;
+
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.login-footer {
+  display: flex;
+}
+.login-next-button {
+  margin-left: 20px;
+  padding-top: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+  .Login-wrapper {
+    background-color: white;
+    position: absolute;
+    width: 60%;
+    top: 15%;
+    left: 18%;
+    padding-bottom: 25px;
+  }
+  .Login-title {
+    color: white;
+    width: 50%;
+    font-size: 26px;
+    margin: 0 auto;
+    border-radius: 15px;
+    background-color: brown;
+  }
+}

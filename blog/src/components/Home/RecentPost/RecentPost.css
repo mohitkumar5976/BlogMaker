@@ -1,0 +1,69 @@
+.recentpost-body {
+  margin-top: 10px;
+  height: 420px;
+  display: flex;
+}
+
+.recentpost-carousel {
+  margin-left: 18px;
+  width: 60%;
+  margin-bottom: 220px;
+}
+
+.recentpost-block-right {
+  margin-left: 20px;
+}
+
+.recentpost-block-ul {
+  list-style: none;
+}
+.recentpost-block-li {
+  display: flex;
+  position: relative;
+  margin-top: 10px;
+  margin-left: -40px;
+}
+
+.recentpost-block-tag {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  color: white;
+  background-color: red;
+  border-radius: 15px;
+  font-size: 12px;
+  width: 20%;
+  text-align: center;
+}
+.recentpost-block-img {
+  width: 150px;
+
+  height: 100px;
+}
+.recentpost-block-title {
+  margin-right: 5px;
+  width: 270px;
+  margin-left: 5px;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 768px) {
+  .recentpost-body {
+    margin-top: 10px;
+    display: block;
+    height: 64rem;
+  }
+  .recentpost-carousel {
+    width: 95%;
+    margin: 0 auto;
+  }
+  .recentpost-block-right {
+    margin-left: 15px;
+  }
+
+  .recentpost-block-1-title {
+    margin-left: 20px;
+    font-weight: bold;
+    width: 100%;
+  }
+}

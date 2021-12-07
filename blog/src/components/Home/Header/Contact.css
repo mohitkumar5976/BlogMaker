@@ -1,0 +1,22 @@
+.home-contact {
+  color: white;
+}
+.headerContact {
+  color: white;
+}
+.headerContact:hover {
+  background-color: white;
+  color: black;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.home-contact:hover {
+  color: black;
+}
+
+.home-about {
+  color: white;
+}
+.home-about:hover {
+  color: black;
+}

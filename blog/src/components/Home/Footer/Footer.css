@@ -1,0 +1,137 @@
+.footer-wrapper {
+  position: relative;
+}
+
+.footer-header {
+  display: flex;
+  margin-top: -25px;
+  justify-content: space-between;
+}
+
+.footer-blog-name {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.footer-blog-subtitle {
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+}
+.footer-ul {
+  display: flex;
+  list-style: none;
+}
+
+.footer-li {
+  font-size: 18px;
+  padding-right: 10px;
+}
+.footer-social-links {
+  color: white;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+/*footer-content*/
+
+.footer-content {
+  display: flex;
+  margin-bottom: 20px;
+}
+.footer-about-us {
+  width: 50%;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+/*footer-founders*/
+
+.footer-founders-images {
+  position: absolute;
+  top: 15rem;
+  left: -90px;
+  margin-right: -25px;
+}
+
+.footer-founders-img-ul {
+  display: flex;
+  list-style: none;
+}
+.footer-founders-img-li {
+  width: 30%;
+  margin-right: -195px;
+}
+.footer-founders-img {
+  width: 40%;
+  cursor: pointer;
+  height: 50%;
+  border-radius: 50%;
+}
+
+.footer-founders-names {
+  color: white;
+  padding-top: 2px;
+}
+
+/*footer-bottom*/
+.footer-bottom {
+  background-color: white;
+  color: black;
+  height: 50px;
+
+  margin-bottom: -23px;
+}
+.footer-copy {
+  font-weight: bold;
+  font-size: 20px;
+  padding-top: 5px;
+}
+.footer-feedback-form {
+  width: 55%;
+  padding: 10px;
+  margin-left: 70px;
+}
+
+@media only screen and (max-width: 768px) {
+  .footer-wrapper {
+    height: 138vh;
+    margin: 0 auto;
+    position: relative;
+  }
+  .footer-content {
+    display: block;
+  }
+  .footer-about-us {
+    width: 95%;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  .footer-about-us-description {
+    text-align: justify;
+  }
+  .footer-founders-images {
+    position: absolute;
+    top: 18rem;
+    left: 15rem;
+  }
+  .footer-founders-img-li {
+    width: 55%;
+  }
+  .footer-founders-img {
+    width: 80%;
+    cursor: pointer;
+    height: 50%;
+    border-radius: 50%;
+  }
+  .footer-feedback-form {
+    margin-top: 12rem;
+  }
+  .footer-founders-img-li h5 {
+    font-size: 17px;
+  }
+  .footer-founders-img-li h6 {
+    font-size: 15px;
+  }
+}
