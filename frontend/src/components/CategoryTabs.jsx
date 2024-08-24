@@ -19,7 +19,13 @@ export default function CategoryTabs() {
 
   return (
     <Box
-      sx={{ maxWidth: { sm: 425, md: "100%" }, bgcolor: "background.paper" }}
+      sx={{
+        width: "100%",
+        height: "auto",
+        maxWidth: { xs: "95vw", lg: "97vw" },
+        bgcolor: "background.paper",
+      }}
+      className="rounded-sm"
     >
       <Tabs
         value={value}

@@ -8,16 +8,14 @@ import Footer from "../components/Footer";
 const HomePage = () => {
   return (
     <Grid container direction={"column"}>
-      <Grid item xs={12} sm={12}>
+      <Grid item>
         <Header />
       </Grid>
-      <Grid item xs={12} sm={12}>
-        <CategoryTabs />
-      </Grid>
+
       <Grid item xs={12} sm={12}>
         <PostList />
       </Grid>
-      <Grid item >
+      <Grid item>
         <Footer />
       </Grid>
     </Grid>

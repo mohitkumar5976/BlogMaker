@@ -13,3 +13,15 @@ html {
   width: 100%;
   height: 100%;
 }
+
+body {
+  overflow: hidden; /* Disable scrolling on the body */
+}
+
+body::-webkit-scrollbar {
+  display: none; /* Hide scrollbar for Chrome, Safari, and other WebKit browsers */
+}
+
+body {
+  scrollbar-width: none; /* Hide scrollbar for Firefox */
+}

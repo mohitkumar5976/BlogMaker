@@ -6,7 +6,7 @@ const Heading = ({ title, variant }) => {
     <Typography
       variant={variant}
       fontSize={{
-        xs: "20px",
+        xs: "22px",
         sm: "24px",
         md: "28px",
         lg: "32px",

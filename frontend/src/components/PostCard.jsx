@@ -1,5 +1,4 @@
 import * as React from "react";
-import { styled } from "@mui/material/styles";
 import Card from "@mui/material/Card";
 import CardHeader from "@mui/material/CardHeader";
 import CardMedia from "@mui/material/CardMedia";
@@ -14,7 +13,11 @@ import ShareIcon from "@mui/icons-material/Share";
 
 export default function PostCard({ image }) {
   return (
-    <Card sx={{ width: "100%", height: "100%" }} elevation={0}>
+    <Card
+      sx={{ width: "100%", height: "100%" }}
+      elevation={0}
+      className="border border-1"
+    >
       <CardHeader
         avatar={
           <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe">
@@ -28,7 +31,7 @@ export default function PostCard({ image }) {
         component="img"
         sx={{
           height: {
-            xs: "320px",
+            xs: "280px",
             sm: "250px",
             md: "160px",
             lg: "190px",

@@ -3,13 +3,13 @@ import { styled, alpha } from "@mui/material/styles";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
-import Typography from "@mui/material/Typography";
 import InputBase from "@mui/material/InputBase";
 import SearchIcon from "@mui/icons-material/Search";
 import SidebarDrawer from "./SidebarDrawer";
 import { Grid } from "@mui/material";
 import Heading from "./Heading";
 import { Link } from "react-router-dom";
+import CategoryTabs from "./CategoryTabs";
 
 const Search = styled("div")(({ theme }) => ({
   position: "relative",
@@ -56,7 +56,7 @@ export default function Header() {
         <Toolbar
           sx={{
             backgroundColor: "black",
-            padding:0.5
+            padding:1
           }}
         >
           <Grid
@@ -64,6 +64,7 @@ export default function Header() {
             justifyContent="center"
             alignItems="center"
             paddingBottom={1}
+            spacing={1}
           >
             <Grid item xs={1} lg={6} display={{ xs: "block", lg: "none" }}>
               <SidebarDrawer />
@@ -84,6 +85,9 @@ export default function Header() {
                   inputProps={{ "aria-label": "search" }}
                 />
               </Search>
+            </Grid>
+            <Grid item xs={12} lg={12}>
+             <CategoryTabs/>
             </Grid>
           </Grid>
         </Toolbar>
