@@ -21,7 +21,10 @@ const AdminPage = () => {
           justifyContent={{ xs: "start", lg: "center" }}
           alignItems={"center"}
         >
-          <Box className="text-white bg-red-600 pb-1 px-1">
+          <Box
+            sx={{ display: { xs: "block", lg: "none" } }}
+            className="text-white bg-red-600 pb-1 px-1"
+          >
             <AdminMenubar />
           </Box>
           <Box className="text-white p-2 flex justify-center">

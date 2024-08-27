@@ -55,7 +55,7 @@ export default function AdminMenubar() {
         edge="center"
         color="inherit"
         aria-label="open drawer"
-        sx={{ mr: 1, display: { xs: "block", lg: "none" } }}
+        sx={{ mr: 1 }}
       >
         <MenuIcon />
       </IconButton>
